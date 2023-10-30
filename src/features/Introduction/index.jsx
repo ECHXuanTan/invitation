@@ -19,7 +19,7 @@ export default function Introduction() {
   });
 
   return (
-    <div className="relative flex justify-center items-center">
+    <section className="relative flex justify-center items-center">
       <img
         src={imgSrc}
         alt="slider"
@@ -27,12 +27,12 @@ export default function Introduction() {
         style={{ height: "700px" }}
       />
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-      <p
+      <h1
         className="absolute text-white text-8xl text-center"
         style={{ fontFamily: "Dancing Script, cursive" }}
       >
         Graduation Ceremony
-      </p>
-    </div>
+      </h1>
+    </section>
   );
 }

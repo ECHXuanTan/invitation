@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 export default function Title({ blurredText, text }) {
   return (
-    <div className="relative">
+    <div className="relative h-20">
       <h1
         className="absolute inset-0 opacity-20 text-7xl"
         style={{ fontFamily: "Tilt Warp, sans-serif" }}
