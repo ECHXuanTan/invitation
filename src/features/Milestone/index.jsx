@@ -1,4 +1,5 @@
 import { Timeline } from "flowbite-react";
+import { useTranslation } from "react-i18next";
 import {
   HiBriefcase,
   HiMiniAcademicCap,
@@ -7,27 +8,37 @@ import {
 import Title from "../../components/Title";
 
 export default function Milestone() {
+  const { t } = useTranslation();
+
   return (
     <section className="px-6 py-4 sm:px-40 sm:py-16 bg-blue-900">
-      <Title blurredText="Pass" text="Milestone" isLight={false} />
+      <Title
+        blurredText={t("milestone.pass")}
+        text={t("milestone.title")}
+        isLight={false}
+      />
       <div className="flex justify-center">
         <Timeline>
           <Timeline.Item>
             <Timeline.Point icon={HiRocketLaunch} />
             <Timeline.Content>
               <Timeline.Title className="mb-2 ml-8 text-left text-xl text-white">
-                Start to study at HCMUS
+                {t("milestone.start")}
               </Timeline.Title>
-              <Timeline.Time className="text-xl">August 2019</Timeline.Time>
+              <Timeline.Time className="text-xl">
+                {t("milestone.startTime")}
+              </Timeline.Time>
             </Timeline.Content>
           </Timeline.Item>
           <Timeline.Item>
             <Timeline.Point icon={HiMiniAcademicCap} />
             <Timeline.Content>
               <Timeline.Title className="mb-2 ml-8 text-left text-xl text-white">
-                Graduate from HCMUS
+                {t("milestone.graduate")}
               </Timeline.Title>
-              <Timeline.Time className="text-xl">July 2023</Timeline.Time>
+              <Timeline.Time className="text-xl">
+                {t("milestone.graduateTime")}
+              </Timeline.Time>
             </Timeline.Content>
           </Timeline.Item>
           <Timeline.Item>

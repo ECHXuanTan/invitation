@@ -1,0 +1,33 @@
+{
+  "myName": "Phạm Hải Dương",
+  "graduationCeremony": "Lễ tốt nghiệp",
+  "language": {
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt"
+  },
+  "intro": {
+    "graduation": "lễ tốt nghiệp của",
+    "welcome": "trân trọng mời"
+  },
+  "card": {
+    "join": "mời tham dự",
+    "graduation": "lễ tốt nghiệp của",
+    "on": "vào lúc",
+    "from": "từ",
+    "to": "đến",
+    "at": "tại Trường ĐH KHTN - ĐHQG TP.HCM",
+    "address": "227 Nguyễn Văn Cừ, Quận 5, TP.HCM"
+  },
+  "milestone": {
+    "title": "Cột mốc",
+    "pass": "Đã qua",
+    "start": "Ngôi trường ƯỚC AO",
+    "graduate": "Ngôi trường ƯỚC OUT",
+    "startTime": "Tháng 8 2019",
+    "graduateTime": "Tháng 7 2023"
+  },
+  "gallery": {
+    "title": "Album",
+    "photos": "Hình ảnh"
+  }
+}

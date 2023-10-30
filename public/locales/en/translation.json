@@ -1,0 +1,33 @@
+{
+  "myName": "Pham Hai Duong",
+  "graduationCeremony": "Graduation Ceremony",
+  "language": {
+    "en": "English",
+    "vi": "Vietnamese"
+  },
+  "intro": {
+    "graduation": "the graduation of",
+    "welcome": "welcome"
+  },
+  "card": {
+    "join": "join to celebrate",
+    "graduation": "the graduation ceremony of",
+    "on": "which is on",
+    "from": "from",
+    "to": "to",
+    "at": "at VNUHCM - University of Science",
+    "address": "227 Nguyen Van Cu, District 5, HCMC"
+  },
+  "milestone": {
+    "title": "Milestone",
+    "pass": "Pass",
+    "start": "Start to study at HCMUS",
+    "graduate": "Graduate from HCMUS",
+    "startTime": "August 2019",
+    "graduateTime": "July 2023"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "photos": "Photos"
+  }
+}

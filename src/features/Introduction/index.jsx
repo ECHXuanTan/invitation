@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { HiOutlineBookOpen } from "react-icons/hi2";
+import LanguageSelector from "../../components/LanguageSelector";
 
 export default function Introduction() {
+  const { t } = useTranslation();
+
   const [srcSet] = useState([
     "src/assets/images/intro-01.jpg",
     "src/assets/images/intro-02.jpg",
@@ -23,6 +27,7 @@ export default function Introduction() {
 
   return (
     <section className="relative flex justify-center items-center">
+      <LanguageSelector />
       <img
         src={imgSrc}
         alt="slider"
@@ -38,19 +43,19 @@ export default function Introduction() {
           className="mb-8 font-semibold text-white text-base"
           style={{ letterSpacing: "0.75rem" }}
         >
-          - THE GRADUATION OF -
+          - {t("intro.graduation")} -
         </h1>
         <h1
           className="mb-8 text-white text-8xl text-center"
           style={{ fontFamily: "Dancing Script, cursive" }}
         >
-          Pham Hai Duong
+          {t("myName")}
         </h1>
         <h1
           className="font-semibold text-white text-base"
           style={{ letterSpacing: "0.75rem" }}
         >
-          WELCOME
+          {t("intro.welcome")}
         </h1>
       </div>
     </section>

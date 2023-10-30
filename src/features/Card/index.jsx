@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import { HiOutlineAcademicCap } from "react-icons/hi2";
 
 export default function Card() {
+  const { t } = useTranslation();
   return (
     <section className="px-6 py-4 sm:px-40 sm:py-16">
       <div className="relative flex flex-wrap justify-around items-center bg-slate-100 shadow-lg">
@@ -10,28 +12,29 @@ export default function Card() {
           style={{ fontFamily: "Playfair Display, serif" }}
         >
           <p className="mb-10">
-            JOIN TO CELEBRATE
+            {t("card.join").toUpperCase()}
             <br />
-            THE GRADUATION CEREMONY OF
+            {t("card.graduation").toUpperCase()}
           </p>
           <p
             className="mb-8 text-6xl text-rose-500"
             style={{ fontFamily: "Dancing Script, cursive" }}
           >
-            Pham Hai Duong
+            {t("myName")}
           </p>
           <div className="flex justify-center mb-8">
             <HiOutlineAcademicCap className="w-20 h-20 text-gray-400" />
           </div>
-          <p className="mb-2">WHICH IS ON</p>
-          <p className="mb-10 text-4xl">28 | DEC | 2023</p>
-          <p className="mb-10">FROM 8:30 TO 11:00</p>
+          <p className="mb-2">{t("card.on").toUpperCase()}</p>
+          <p className="mb-10 text-4xl">28 / 12 / 2023</p>
+          <p className="mb-10">
+            {t("card.from").toUpperCase()} 8:30 {t("card.to").toUpperCase()}{" "}
+            11:00
+          </p>
           <p>
-            AT VNUHCMC - UNIVERSITY OF SCIENCE
+            {t("card.at").toUpperCase()}
             <br />
-            <span className="text-xl">
-              227 NGUYEN VAN CU ST., DISTRICT 5, HCMC
-            </span>
+            {t("card.address").toUpperCase()}
           </p>
         </div>
         <div
