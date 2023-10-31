@@ -6,7 +6,7 @@ export default function Card() {
   return (
     <section className="px-6 py-4 sm:px-40 sm:py-16">
       <div className="relative flex flex-wrap justify-around items-center bg-slate-100 shadow-lg">
-        <img src="src/assets/images/card.jpg" alt="card" width={500} />
+        <img src="./src/assets/images/card.jpg" alt="card" width={500} />
         <div
           className="px-10 py-8 text-xl text-gray-500"
           style={{ fontFamily: "Playfair Display, serif" }}

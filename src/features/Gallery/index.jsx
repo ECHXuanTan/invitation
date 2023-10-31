@@ -6,12 +6,12 @@ export default function Gallery() {
   const { t } = useTranslation();
 
   const [srcSet] = useState([
-    "src/assets/images/mock-01.png",
-    "src/assets/images/mock-02.png",
-    "src/assets/images/mock-03.png",
-    "src/assets/images/mock-04.png",
-    "src/assets/images/mock-05.png",
-    "src/assets/images/mock-06.png",
+    "./src/assets/images/mock-01.png",
+    "./src/assets/images/mock-02.png",
+    "./src/assets/images/mock-03.png",
+    "./src/assets/images/mock-04.png",
+    "./src/assets/images/mock-05.png",
+    "./src/assets/images/mock-06.png",
   ]);
 
   return (
