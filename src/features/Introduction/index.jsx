@@ -7,11 +7,11 @@ export default function Introduction() {
   const { t } = useTranslation();
 
   const [srcSet] = useState([
-    "./src/assets/images/intro-01.jpg",
-    "./src/assets/images/intro-02.jpg",
-    "./src/assets/images/intro-03.jpg",
-    "./src/assets/images/intro-04.jpg",
-    "./src/assets/images/intro-05.jpg",
+    "src/assets/images/intro-01.jpg",
+    "src/assets/images/intro-02.jpg",
+    "src/assets/images/intro-03.jpg",
+    "src/assets/images/intro-04.jpg",
+    "src/assets/images/intro-05.jpg",
   ]);
 
   const [imgSrc, setImgSrc] = useState(srcSet[0]);
