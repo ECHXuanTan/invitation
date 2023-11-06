@@ -26,7 +26,7 @@ export default function Card() {
             <HiOutlineAcademicCap className="w-20 h-20 text-gray-400" />
           </div>
           <p className="mb-2">{t("card.on").toUpperCase()}</p>
-          <p className="mb-10 text-4xl">{t("card.thu") 16 / 11 / 2023</p>
+          <p className="mb-10 text-4xl">{t("card.thu")} 16 / 11 / 2023</p>
           <p className="mb-10">
             {t("card.from").toUpperCase()} 11:00 {t("card.to").toUpperCase()}{" "}
             14:00
