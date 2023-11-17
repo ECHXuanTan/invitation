@@ -39,13 +39,7 @@ export default function Gallery() {
       <Title blurredText={t("gallery.photos")} text={t("gallery.title")} />
       <div className="columns-1 sm:columns-3 gap-4 space-y-4">
         {srcSet.map((src, index) => (
-          <img
-            key={index}
-            src={src}
-            alt="gallery"
-            className="w-full"
-            loading="lazy"
-          />
+          <img key={index} src={src} alt="gallery" className="w-full" />
         ))}
       </div>
     </section>
