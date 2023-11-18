@@ -10,6 +10,8 @@ export default function Gallery() {
     "/assets/images/00b.jpg",
     "/assets/images/01.jpg",
     "/assets/images/02.jpg",
+    "/assets/images/02a.jpg",
+    "/assets/images/02b.jpg",
     "/assets/images/03.jpg",
     "/assets/images/04.jpg",
     "/assets/images/05.jpg",
