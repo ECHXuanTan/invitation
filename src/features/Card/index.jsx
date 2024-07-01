@@ -36,6 +36,10 @@ export default function Card() {
             <br />
             280 An Dương Vương, Quận 5, TP. Hồ Chí Minh
           </p>
+          <p>
+          <br />
+            SĐT: 0387397628
+          </p>
         </div>
         <div
           className="absolute inset-x-3 inset-y-7"
