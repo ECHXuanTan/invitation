@@ -6,7 +6,7 @@ export default function Card() {
   return (
     <section className="px-6 py-4 sm:px-40 sm:py-16">
       <div className="relative flex flex-wrap justify-around items-center bg-slate-100 shadow-lg">
-        <img src="/assets/images/card.jpg" alt="card" width={500} />
+        <img src="/assets/images/card.png" alt="card" width={500} />
         <div
           className="px-10 py-8 text-xl text-gray-500"
           style={{ fontFamily: "Playfair Display, serif" }}
@@ -20,21 +20,21 @@ export default function Card() {
             className="mb-8 text-6xl text-rose-500"
             style={{ fontFamily: "Dancing Script, cursive" }}
           >
-            {t("myName")}
+            Đào Xuân Tân
           </p>
           <div className="flex justify-center mb-8">
             <HiOutlineAcademicCap className="w-20 h-20 text-gray-400" />
           </div>
           <p className="mb-2">{t("card.on").toUpperCase()}</p>
-          <p className="mb-10 text-4xl">{t("card.thu")} 16 / 11 / 2023</p>
+          <p className="mb-10 text-4xl"> Thứ 5, 11 / 7 / 2024</p>
           <p className="mb-10">
-            {t("card.from").toUpperCase()} 11:00 {t("card.to").toUpperCase()}{" "}
+            {t("card.from").toUpperCase()} 9:00 {t("card.to").toUpperCase()}{" "}
             14:00
           </p>
           <p>
-            {t("card.at").toUpperCase()}
+            Tại Giảng đường D, Trường Đại học Sư Phạm Thành phố Hồ Chí Minh
             <br />
-            {t("card.address").toUpperCase()}
+            280 An Dương Vương, Quận 5, TP. Hồ Chí Minh
           </p>
         </div>
         <div

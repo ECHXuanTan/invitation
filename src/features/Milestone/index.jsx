@@ -26,7 +26,7 @@ export default function Milestone() {
                 {t("milestone.start")}
               </Timeline.Title>
               <Timeline.Time className="text-xl">
-                {t("milestone.startTime")}
+                Tháng 10 năm 2020
               </Timeline.Time>
             </Timeline.Content>
           </Timeline.Item>
@@ -37,7 +37,7 @@ export default function Milestone() {
                 {t("milestone.graduate")}
               </Timeline.Title>
               <Timeline.Time className="text-xl">
-                {t("milestone.graduateTime")}
+                Tháng 7 năm 2024
               </Timeline.Time>
             </Timeline.Content>
           </Timeline.Item>
@@ -47,6 +47,9 @@ export default function Milestone() {
               <Timeline.Title className="ml-8 text-left text-white">
                 ???
               </Timeline.Title>
+              <Timeline.Time className="text-xl">
+                Chưa biết đi đâu :v
+              </Timeline.Time>
             </Timeline.Content>
           </Timeline.Item>
         </Timeline>

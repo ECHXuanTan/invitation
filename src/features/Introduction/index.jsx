@@ -27,7 +27,7 @@ export default function Introduction() {
 
   return (
     <section className="relative flex justify-center items-center">
-      <LanguageSelector />
+      
       <img
         src={imgSrc}
         alt="slider"
@@ -40,7 +40,7 @@ export default function Introduction() {
           <HiOutlineBookOpen className="w-20 h-20 text-white" />
         </div>
         <h1
-          className="mb-8 font-semibold text-white text-base"
+          className="mb-8 font-semibold text-white text-2xl uppercase"
           style={{ letterSpacing: "0.75rem" }}
         >
           - {t("intro.graduation")} -
@@ -49,13 +49,15 @@ export default function Introduction() {
           className="mb-8 text-white text-8xl text-center"
           style={{ fontFamily: "Dancing Script, cursive" }}
         >
-          {t("myName")}
+          Đào Xuân Tân
         </h1>
         <h1
-          className="font-semibold text-white text-base"
-          style={{ letterSpacing: "0.75rem" }}
+          className="font-semibold text-white text-2xl uppercase"
+          style={{ letterSpacing: "0.1rem", padding: '0 5px' }}
         >
-          {t("intro.welcome")}
+          Sự hiện diện và NHỮNG lời chúc tốt đẹp
+của bạn sẽ KHIẾN ngày kỷ niệm của mình
+thêm đáng nhớ.
         </h1>
       </div>
     </section>
