@@ -28,11 +28,11 @@ export default function Card() {
           <p className="mb-2">{t("card.on").toUpperCase()}</p>
           <p className="mb-10 text-4xl"> Thứ 5, 11 / 7 / 2024</p>
           <p className="mb-10">
-            {t("card.from").toUpperCase()} 9:00 {t("card.to").toUpperCase()}{" "}
-            14:00
+            {t("card.from").toUpperCase()} 13:00 {t("card.to").toUpperCase()}{" "}
+            17:00
           </p>
           <p>
-            Tại Giảng đường D, Trường Đại học Sư Phạm Thành phố Hồ Chí Minh
+            Tại A.313, Trường Đại học Sư Phạm Thành phố Hồ Chí Minh
             <br />
             280 An Dương Vương, Quận 5, TP. Hồ Chí Minh
           </p>
